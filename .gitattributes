@@ -1,0 +1,25 @@
+# Auto detect text files and perform LF normalization
+# Normalize text files
+*.cs text=auto
+*.shader text=auto
+*.txt text=auto
+*.json text=auto
+*.xml text=auto
+
+# Treat Unity binary assets properly
+*.unity binary
+*.prefab binary
+*.mat binary
+*.asset binary
+*.controller binary
+*.anim binary
+
+# Treat media files as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.fbx binary
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.mp4 binary
